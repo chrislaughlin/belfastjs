@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Belfast JS`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Chris Laughlin`,
+      summary: `The future home of BelfastJS meetup.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `The future home of BelfastJS meetup.`,
+    siteUrl: `https://chrislaughlin.github.io/belfastjs/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `belfastjs`,
     },
   },
   plugins: [
