@@ -324,9 +324,10 @@ a:focus {
   width: 100px;
 }
 
-.main-heading, .header-link-home {
+.global-header {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 /* Media queries */
 
