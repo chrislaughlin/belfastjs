@@ -26,23 +26,17 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="Belfast JS" />
       {/* <Bio /> */}
+      <h2>
+      What’s the craic?
+      </h2>
       <p>
-      We are a group of passionate developers, designers, students, hobbyists and other curious people based in Belfast, Northern Ireland. We usually have a meetup every other month, where we have talks, presentations and discussions on JavaScript and Web development in general.
+      Belfast JS is a celebration of all things dev. Everyone is welcome here. All our talks and events are open call, meaning if you’re well seasoned or fresh to the field, this is the platform for you to share, discuss and learn together within this diverse and exciting community in Belfast.
       </p>
       <p>
-      We meet at several regular venues around the City centre area. We cover JS and web dev fundamentals, frameworks, architecture, culture, tooling, browser internals, performance, UX, creative coding, game dev, and more.
+      Even if you are more java than javascript or more design than dev, we will have something for you. We are passionate about building collaborative relationships and knowledge through peer learning.
       </p>
       <p>
-      Our talk formats are a mixture of 'full length' talks (20-30 mins in length) and 'lightning talks' (5-10 mins), and we try to provide a mix of the two at every event. Occasionally we run an entire 'lightning round' session comprised solely of lightning talks. We are flexible in our approach - whatever works! Q&A is normally held after each talk, though this is at the discretion of the speaker.
-      </p>
-      <p>
-      Whether you're a grizzled veteran, developing your skills, new to the industry, a hobbyist, student, looking for a career change, or just interested in general, you'll find something worth attending for - all within a friendly, relaxed and diverse group of people.
-      </p>
-      <p>
-      Join us - all experience levels welcome! We are also always looking for new speakers, so if you fancy giving it a go, tell us!
-      </p>
-      <p>
-      Follow us on <a href="https://twitter.com/BelfastJS">Twitter</a> and hit us up with questions or requests to talk / topics you'd like to see covered!
+      Events will take a variety of formats from panel discussions to presentations and more. We will call for speakers either through <a href="https://www.meetup.com/Belfast-JS/" target="_blank">Meetup</a> or via <a href="https://twitter.com/belfastjs" target="_blank">Twitter</a>and encourage everyone to participate!
       </p>
       {/* <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
