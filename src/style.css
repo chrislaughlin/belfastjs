@@ -54,11 +54,11 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
+  --color-primary: #eafa10;
+  --color-text: #f5f5f5;
+  --color-text-light: #fbfcfd;
+  --color-heading: #e1e3e6;
+  --color-heading-dark: rgb(201, 198, 198);
   --color-accent: #d1dce5;
 }
 
@@ -81,6 +81,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background-color: black;
 }
 
 footer {
@@ -120,7 +121,7 @@ h6 {
 h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
-  color: var(--color-heading-black);
+  color: var(--color-heading-dark);
 }
 
 h2 {
@@ -319,6 +320,14 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.logo {
+  width: 100px;
+}
+
+.main-heading, .header-link-home {
+  display: flex;
+  justify-content: center;
+}
 /* Media queries */
 
 @media (max-width: 42rem) {
@@ -331,3 +340,4 @@ a:focus {
     list-style-position: inside;
   }
 }
+

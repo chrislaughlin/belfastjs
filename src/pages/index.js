@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -25,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
+      <Seo title="Belfast JS" />
       {/* <Bio /> */}
       <p>
       We are a group of passionate developers, designers, students, hobbyists and other curious people based in Belfast, Northern Ireland. We usually have a meetup every other month, where we have talks, presentations and discussions on JavaScript and Web development in general.
