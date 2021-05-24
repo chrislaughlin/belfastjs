@@ -3,10 +3,10 @@ module.exports = {
     title: `Belfast JS`,
     author: {
       name: `Chris Laughlin`,
-      summary: `The future home of BelfastJS meetup.`,
+      summary: `The home of the BelfastJS meetup.`,
     },
-    description: `The future home of BelfastJS meetup.`,
-    siteUrl: `https://chrislaughlin.github.io/belfastjs/`,
+    description: `The home of the BelfastJS meetup.`,
+    siteUrl: `https://belfast.js.org`,
     social: {
       twitter: `belfastjs`,
     },
@@ -112,13 +112,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Belfast JS`,
+        short_name: `BelfastJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.jpeg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
