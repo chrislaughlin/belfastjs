@@ -36,7 +36,7 @@ const BlogIndex = ({ data, location }) => {
       Even if you are more java than javascript or more design than dev, we will have something for you. We are passionate about building collaborative relationships and knowledge through peer learning.
       </p>
       <p>
-      Events will take a variety of formats from panel discussions to presentations and more. We will call for speakers either through <a href="https://www.meetup.com/Belfast-JS/" target="_blank">Meetup</a> or via <a href="https://twitter.com/belfastjs" target="_blank">Twitter</a>and encourage everyone to participate!
+      Events will take a variety of formats from panel discussions to presentations and more. We will call for speakers either through <a href="https://www.meetup.com/Belfast-JS/" target="_blank">Meetup</a> or via <a href="https://twitter.com/belfastjs" target="_blank">Twitter</a> and encourage everyone to participate!
       </p>
       {/* <ol style={{ listStyle: `none` }}>
         {posts.map(post => {

@@ -6,31 +6,99 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const Coc = ({ data, location }) => {
-    const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data.site.siteMetadata?.title || `Title`
 
-    return (
-        <>
-            <Layout location={location} title={siteTitle}>
-                <Seo title="Belfast JS" />
-                <h1 id="belfastjs-code-of-conduct">BelfastJS Code of Conduct</h1>
-                <p><em>Last updated: May 2018</em></p>
-                <p><a href="https://meetup.com/Belfast-JS">BelfastJS</a> is a JavaScript and web development meetup based in Belfast, which attracts a large contingent of attendees and speakers from across demographics and disciplines.</p>
-                <p>All organisers, speakers, sponsors, volunteers and attendees at any BelfastJS event are required to agree with the following code of conduct. Organizers will enforce this code throughout the events.</p>
-                <h2 id="the-quick-version">The Quick Version</h2>
-                <p><strong>BelfastJS</strong> is dedicated to providing a harassment-free event experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), job role, or technology choices. We do not tolerate harassment of event participants in any form. Sexual language and imagery is not appropriate for any event venue, including talks, workshops, parties, Twitter and other online media. Event participants violating these rules may be sanctioned or expelled from any event at the discretion of the group organisers or venue hosts.</p>
-                <h2 id="the-less-quick-version">The Less-Quick Version</h2>
-                <p>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, job role, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
-                <p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
-                <p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Stall staff and/or venue host staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</p>
-                <p>If a participant engages in harassing behavior, the event organizers may take any action they deem appropriate, including warning the offender and/or expulsion from the event. Repeated or severe occurrences of harassing behaviour may lead the participant to be banned from future events.</p>
-                <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a group organiser or venue host immediately. </p>
-                <p>Group organisers will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of an event. We value your attendance.</p>
-                <p>We expect participants to follow these rules at all event venues and group-related social events.</p>
-                <hr />
-                <p>If you have questions or concerns about this Code of Conduct, or about BelfastJS in general, please contact the organisers via Twitter at <a href="https://twitter.com/BelfastJS">@belfastjs</a> or on the <a href="https://meetup.com/Belfast-JS">Meetup page</a>.</p>
-            </Layout>
-        </>
-    )
+  return (
+    <>
+      <Layout location={location} title={siteTitle}>
+        <Seo title="Belfast JS" />
+        <h1>Code of Conduct</h1>
+        <p>
+          All participants of Belfast JS are expected to
+          abide by our Code of Conduct, both online and during
+          in-person events that are hosted and/or associated
+          with Belfast JS.
+</p>
+
+        <h2>The Pledge</h2>
+
+        <p>
+          In the interest of fostering an open and welcoming
+          environment, we pledge to make participation in our
+          project and our community a harassment-free experience
+          for everyone, regardless of age, body size, disability,
+          ethnicity, gender identity and expression, level of
+          experience, nationality, personal appearance, race,
+          religion, or sexual identity and orientation.
+</p>
+
+        <h2>The Standards</h2>
+
+        <p>
+          Examples of behaviour that contributes to creating a
+          positive environment include:
+</p>
+
+        <ul>
+          <li>Using welcoming and inclusive language</li>
+          <li>Being respectful of differing viewpoints and experiences</li>
+          <li>Gracefully accepting constructive criticism</li>
+          <li>Referring to people by their preferred pronouns and using gender-neutral pronouns when uncertain</li>
+        </ul>
+
+        <p>
+          Examples of unacceptable behaviour by participants include:
+</p><p>
+
+        </p><ul>
+          <li>
+            Trolling, insulting/derogatory comments, public
+            or private harassment
+  </li>
+          <li>
+            Publishing others' private information, such as
+            a physical or electronic address, without explicit
+            permission
+  </li>
+          <li>
+            Not being respectful to reasonable communication
+            boundaries, such as 'leave me alone,' 'go away,'
+            or 'I’m not discussing this with you.'
+  </li>
+          <li>The usage of sexualised language or imagery and unwelcome sexual attention or advances</li>
+          <li>Demonstrating the graphics or any other content you know may be considered disturbing</li>
+          <li>Starting and/or participating in arguments related to politics</li>
+          <li>Assuming or promoting any kind of inequality including but not limited to: age, body size, disability, ethnicity, gender identity and expression, nationality and race, personal appearance, religion, or sexual identity and orientation</li>
+          <li>
+            Other conduct which you know could reasonably be
+            considered inappropriate in a professional setting.
+  </li>
+        </ul>
+
+        <h2>Enforcement</h2>
+        <p>
+          Violations of the Code of Conduct may be reported by
+  sending an email to <a href="mailto:belfastjs@christopherlaughlin.co.uk">belfastjs@christopherlaughlin.co.uk</a>. All reports will be
+  reviewed and investigated and will result in a response
+  that is deemed necessary and appropriate to the
+  circumstances. Further details of specific enforcement
+  policies may be posted separately.
+</p>
+        <p>
+          We hold the right and responsibility to remove comments
+          or other contributions that are not aligned to this
+          Code of Conduct, or to ban temporarily or permanently
+          any members for other behaviours that they deem inappropriate,
+          threatening, offensive, or harmful.
+</p>
+
+        <h2>Attribution</h2>
+        <p>
+          This Code of Conduct is adapted from <a href="https://dev.to/code-of-conduct">dev.to</a>.
+</p>
+      </Layout>
+    </>
+  )
 }
 
 export const pageQuery = graphql`

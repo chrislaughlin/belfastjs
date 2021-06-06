@@ -52,11 +52,17 @@ const Menu = ({ open, isRootPath }) => {
         <a href="https://twitter.com/belfastjs">
           Twitter
         </a>
-        <a href="/speaker-guide">
-          Speaker Guide
+        <a href="https://forms.gle/rHNYD9JrXnTDztaH8">
+          Submit a Talk
         </a>
+        {/* <a href="/speaker-guide">
+          Speaker Guide
+        </a>*/}
         <a href="/coc">
           Code of Conduct
+        </a>
+        <a href="mailto:belfastjs@christopherlaughlin.co.uk">
+          contact
         </a>
       </StyledMenu>
     )
