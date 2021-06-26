@@ -8,6 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "firebase": "^8.6.8",
     "gatsby": "^3.4.1",
     "gatsby-plugin-feed": "^3.4.0",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
@@ -30,9 +31,11 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-syntax-highlighter": "^15.4.3",
+    "reactfire": "^3.0.0-rc.0",
     "styled-components": "^5.3.0",
     "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
+    "typeface-montserrat": "0.0.75",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "prettier": "2.2.1"
