@@ -61,7 +61,7 @@ const Menu = ({ open, isRootPath }) => {
         <a href="/questions">
           Live Questions
         </a>
-        <a href="mailto:belfastjs@christopherlaughlin.co.uk">
+        <a href="mailto:belfastjsmeetup@gmail.com">
           contact
         </a>
       </StyledMenu>
